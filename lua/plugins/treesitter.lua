@@ -21,6 +21,8 @@ return {
         "sql",
         "svelte",
         "glimmer",
+        "ninja",
+        "rst",
       },
 
       -- matchup = {

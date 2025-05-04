@@ -1,10 +1,17 @@
 {
   "extras": [
-
+    "lazyvim.plugins.extras.ai.copilot",
+    "lazyvim.plugins.extras.ai.copilot-chat",
+    "lazyvim.plugins.extras.editor.harpoon2",
+    "lazyvim.plugins.extras.lang.angular",
+    "lazyvim.plugins.extras.lang.astro",
+    "lazyvim.plugins.extras.lang.git",
+    "lazyvim.plugins.extras.util.gitui"
   ],
+  "install_version": 7,
   "news": {
-    "NEWS.md": "3314",
-    "doc/news.txt": "13995"
+    "NEWS.md": "10960",
+    "doc/news.txt": "24450"
   },
-  "version": 3
+  "version": 8
 }
