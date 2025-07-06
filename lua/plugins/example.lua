@@ -66,6 +66,7 @@ return {
   -- add pyright to lspconfig
   {
     "neovim/nvim-lspconfig",
+    version = "*",
     ---@class PluginLspOpts
     opts = function(_, opts)
       local servers = { "pyright", "basedpyright", "ruff", "ruff_lsp", ruff, lsp }
@@ -79,6 +80,7 @@ return {
   -- add tsserver and setup with typescript.nvim instead of lspconfig
   {
     "neovim/nvim-lspconfig",
+    version = "*",
     dependencies = {
       "jose-elias-alvarez/typescript.nvim",
       init = function()

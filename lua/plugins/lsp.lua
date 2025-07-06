@@ -16,4 +16,11 @@ return {
       })
     end,
   },
+  {
+    "neovim/nvim-lspconfig",
+    version = "*",
+    opts = {
+      -- rest of your options go here
+    },
+  },
 }
