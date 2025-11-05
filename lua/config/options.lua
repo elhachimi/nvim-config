@@ -7,3 +7,4 @@ vim.g.mapleader = ","
 -- LSP Server to use for Python
 vim.g.lazyvim_python_lsp = "pyright"
 vim.g.lazyvim_python_ruff = "ruff"
+vim.g.github_enterprise_urls = { "https://github.internal.digitalocean.com" }
